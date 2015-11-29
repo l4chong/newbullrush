@@ -19,16 +19,17 @@ html
           span(color='red') .
           | Me
 
-    form(method='post', action='/')
-        .row.twitter-submission
-            .col-md-12
-                span.h3 @
-                input.paragraph.form-control(type='text', value='#{user ? user.screen_name : "" }', name='username', placeholder='your twitter handle...', required)
-                button.button.h4(type='submit') Match me!
-
-        a(href='')
-          p.tlt(data-in-effect='bounceInDown')
-            | Click to Match
+        .row
+            .col-md-4
+            .col-md-4
+                form(method='post', action='/')
+                    .row.twitter-submission
+                            input.paragraph.form-control(type='text', value='#{user ? user.screen_name : "" }', name='username', placeholder='your twitter handle...', required)
+                            button.button.h4(type='submit') Match Red Zone!
+                            //button.button.h4(type='submit') Match Fans!
+                form(method='post', action='https://www.google.ca')
+                    button.button.h4(type='submit') Find Fans!
+            .col-md-4
         br
         br
         div

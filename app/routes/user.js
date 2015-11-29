@@ -196,6 +196,7 @@ router.get('/like/@:username', function (req, res) {
 
   }).done(function(result){
     logger.info('done()');
+          console.log(result);
     if (result)
       res.render('match',result);
   });
