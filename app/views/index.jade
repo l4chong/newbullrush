@@ -18,25 +18,37 @@ html
           | Match
           span(color='red') .
           | Me
-
+        //.row
+        //    .col-md-4
+        //    .col-md-4
+        //        form(method='post', action='/')
+        //            .row.twitter-submission
+        //                    input.paragraph.form-control(type='text', value='#{user ? user.screen_name : "" }', name='username', placeholder='your twitter handle...', required)
+        //                    button.button.h4(type='submit') Match Red Zone!
+        //                    //button.button.h4(type='submit') Match Fans!
+        //        form(method='post', action='http://localhost:3000/tos')
+        //            button.button.h4(type='submit') Find Fans!
+        //    .col-md-4
         .row
-            .col-md-4
-            .col-md-4
-                form(method='post', action='/')
-                    .row.twitter-submission
-                            input.paragraph.form-control(type='text', value='#{user ? user.screen_name : "" }', name='username', placeholder='your twitter handle...', required)
-                            button.button.h4(type='submit') Match Red Zone!
-                            //button.button.h4(type='submit') Match Fans!
-                form(method='post', action='https://www.google.ca')
-                    button.button.h4(type='submit') Find Fans!
-            .col-md-4
-        br
-        br
-        div
-          a.twitter-share-button(href='https://twitter.com/share', data-text='Textillate.js - A simple plugin for CSS3 text animations', data-url='http://textillate.js.org', data-via='_jschr')
+            .col-xs-6.col-sm-4
+            .col-xs-6.col-sm-4
+            // Optional: clear the XS cols if their content doesn't match in height
+            form(method='post', action='/')
+                .row.twitter-submission
+                    input.paragraph.form-control(type='text', value='#{user ? user.screen_name : "" }', name='username', placeholder='your twitter handle...', required)
+                    button.button.h4(type='submit') Match Red Zone!
+                    //button.button.h4(type='submit') Match Fans!
+            form(method='post', action='http://localhost:3000/tos')
+                button.button.h4(type='submit') Find Fans!
+            .clearfix.visible-xs-block
+            .col-xs-6.col-sm-4
+
+        //br
+        //br
+          //a.twitter-share-button(href='https://twitter.com/share', data-text='Textillate.js - A simple plugin for CSS3 text animations', data-url='http://textillate.js.org', data-via='_jschr')
             | Tweet
-          iframe(src='https://ghbtns.com/github-btn.html?user=jschr&repo=textillate&type=star&count=true&v=2', frameborder='0', scrolling='0', width='100px', height='20px')
-          iframe(src='https://ghbtns.com/github-btn.html?user=jschr&repo=textillate&type=fork&count=true', frameborder='0', scrolling='0', width='90px', height='20px')
+          //iframe(src='https://ghbtns.com/github-btn.html?user=jschr&repo=textillate&type=star&count=true&v=2', frameborder='0', scrolling='0', width='100px', height='20px')
+          //iframe(src='https://ghbtns.com/github-btn.html?user=jschr&repo=textillate&type=fork&count=true', frameborder='0', scrolling='0', width='90px', height='20px')
     script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js')
     script(src='assets/jquery.fittext.js')
     script(src='assets/jquery.lettering.js')
