@@ -35,7 +35,9 @@ html
             // Optional: clear the XS cols if their content doesn't match in height
             form(method='post', action='/')
                 .row.twitter-submission
-                    input.paragraph.form-control(type='text', value='#{user ? user.screen_name : "" }', name='username', placeholder='your twitter handle...', required)
+                    input.paragraph.form-control(type='text', value='#{user ? user.screen_name : "" }', name='username', placeholder='your twitter handle...', required, style="width: 200px")
+                    p
+                    br
                     button.button.h4(type='submit') Match Red Zone!
                     //button.button.h4(type='submit') Match Fans!
             form(method='post', action='http://localhost:3000/tos')
