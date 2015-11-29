@@ -18,10 +18,15 @@ var services = {
   twitter: [
   // Twitter app credentials: https://apps.twitter.com/app
   {
-      consumer_key:       'zfztqDJNUsNFIWflxyqS6tuve',
-      consumer_secret:    '6mb9X3mdbnvcoxmrqb71YhVOQTVMxzicCx7q6LggWsOfHpzw2h',
-      access_token_key:   '4289837116-bdgpzt4WP5erhXPpepYSqHgw76md797EbbPcaJs',
-      access_token_secret:'V1au48k4XWnAaFqyStMEmhnWe15MhXVa8KwdsSg4KC2z3'
+//      consumer_key:       'hYGs9TghnuQroN4K5CGxIJUtR',
+//      consumer_secret:    'M7NlAh2sQs4cChmYKQ8ORCwC9yQPGVhx8bmmM3wLjSANtEiL3G',
+//      access_token_key:   '4289837116-GBQ9xirMhlz8jxRVhFYe5PtBpFLjEhcjNPdL7yv',
+//      access_token_secret:'SuRzzE59Uvm4DMePYkv2idPnSbAKFfQpbjHwHE9ION3Oy'
+
+          consumer_key:       'zfztqDJNUsNFIWflxyqS6tuve',
+          consumer_secret:    '6mb9X3mdbnvcoxmrqb71YhVOQTVMxzicCx7q6LggWsOfHpzw2h',
+          access_token_key:   '4289837116-bdgpzt4WP5erhXPpepYSqHgw76md797EbbPcaJs',
+          access_token_secret:'V1au48k4XWnAaFqyStMEmhnWe15MhXVa8KwdsSg4KC2z3'
   }]
 };
 
