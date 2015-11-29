@@ -9,19 +9,19 @@ var services = {
   mongodb: 'mongodb://localhost/celebs',
 
   personality_insights: {
-    url:      '<url>',
-    username: '<username>',
-    password: '<password>',
+      "url": "https://gateway.watsonplatform.net/personality-insights/api",
+      "username": "ec653fa9-4009-44f3-81a5-8d5a72a1b294",
+      "password": "bqCW57WSBPVf",
     version: 'v2'
   },
 
   twitter: [
   // Twitter app credentials: https://apps.twitter.com/app
   {
-    consumer_key:       '<consumer_key>',
-    consumer_secret:    '<consumer_secret>',
-    access_token_key:   '<access_token_key>',
-    access_token_secret:'<access_token_secret>'
+      consumer_key:       'zfztqDJNUsNFIWflxyqS6tuve',
+      consumer_secret:    '6mb9X3mdbnvcoxmrqb71YhVOQTVMxzicCx7q6LggWsOfHpzw2h',
+      access_token_key:   '4289837116-bdgpzt4WP5erhXPpepYSqHgw76md797EbbPcaJs',
+      access_token_secret:'V1au48k4XWnAaFqyStMEmhnWe15MhXVa8KwdsSg4KC2z3'
   }]
 };
 
